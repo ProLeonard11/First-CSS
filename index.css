@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+#central {
+    background: blue;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hello {
+    color: white;
+    transition: all 1s ease-out;
+}
+
+#hello:hover {
+    color: red;
+    
+}
